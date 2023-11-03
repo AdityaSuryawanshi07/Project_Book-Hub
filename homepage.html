@@ -46,23 +46,27 @@
  
   </style>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <div class="navbar">
                 <img src="img/book.png" height="50" width="50">
-                <h3><strong><i>&nbsp;Book-hub</i></strong></h3>
+                <h3 class="hub"><strong><i>&nbsp;Book-hub</i></strong></h3>
               </div>
 
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2 border border-1 border-primary-subtle" size="100" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline" style="color: white; background-color: cornflowerblue;" type="submit">Search</button>
               </form>
               
                 <div class="navbar-nav">
                   <a class="nav-link  border border-1 border-primary-subtle fw-bold  shadow  text-center ps-3 pe-3 m-2 " data-bs-toggle="modal" style="border-radius: 10px;" aria-current="page"data-bs-target="#staticBackdrop"><img src="img/user.png" style="height: 30px; width: 30px;" alt="">&nbsp;&nbsp;My Account</a>
                   <a class="nav-link  border border-1 border-primary-subtle fw-bold  shadow  text-center ps-3 pe-3 m-2 " style="border-radius: 10px;" aria-current="page" href="homepage.html"><img src="img/cart.png" style="height: 30px; width: 30px;" alt="">&nbsp;&nbsp;Cart</a>
-                 
+                </div>
+              
+              </div>
+            </nav>    
+      </div>
                   <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -75,7 +79,7 @@
        <!--Modal Body Start-->
 
        <div class="login-wrap">
-        <div class="login-html">
+        <div class="login-html" style="background-image: url(img/bg3.png);">
           <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
           <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
           <div class="login-form">
@@ -96,7 +100,7 @@
                 <input type="submit" class="button" value="Sign In">
               </div>
               <div class="hr"></div>
-              <div class="foot-lnk">
+              <div class="foot-lnk" style="color: white;">
                 <a href="#forgot">Forgot Password?</a>
               </div>
             </div>
@@ -140,20 +144,16 @@
 
 <!-- Modal End -->
 
-                </div>
-              
-            </div>
-          </nav>    
-    </div>
+                
 
     <!-- Navbar Ends -->
 
     <!-- Category Dropdown Start -->
-    <div class="container" >
-      <nav class="navbar navbar-expand-lg bg-light border border-1 border-">
-          <div class="container-fluid ">
+    <div class="container-fluid ">
+      <nav class="navbar navbar-expand-lg bg-light border border-1 border-white">
+          <div class="container-fluid border border-1" style="background-color: snow; border-radius: 10px; padding-left: 0;">
            <div class="dropdwn">
-            <button type="button" class="btn btn-danger dropbtn" data-bs-toggle=""><img src="img/menu.png" style="height: 30px;" alt="">&nbsp;&nbsp;SHOP BY CATEGORY</button>
+            <button type="button" class="btn btn-danger dropbtn"  data-bs-toggle=""><img src="img/menu.png" style="height: 30px;" alt="">&nbsp;&nbsp;SHOP BY CATEGORY</button>
             <ul class="dropdwn-content">
               <li><a class="dropdwn-item" href="#">Historical</a></li>
               <li><a class="dropdwn-item" href="#">Scientific</a></li>
@@ -165,7 +165,7 @@
      <!-- Language Dropdown Start -->
 
            <div class="dropdwn1">
-            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Marathi</button>
+            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Marathi <img src="img/down-arrow.png" style="height: 30px;"></button>
             <ul class="dropdwn1-content">
               <li><a class="dropdwn1-item" href="#">Historical</a></li>
               <li><a class="dropdwn1-item" href="#">Scientific</a></li>
@@ -175,7 +175,7 @@
          
    
            <div class="dropdwn1">
-            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Hindi</button>           
+            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Hindi<img src="img/down-arrow.png" style="height: 30px;"></button>           
              <ul class="dropdwn1-content">
               <li><a class="dropdwn1-item" href="#">Historical</a></li>
               <li><a class="dropdwn1-item" href="#">Scientific</a></li>
@@ -187,7 +187,7 @@
     
    
            <div class="dropdwn1">
-            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;English</button>            
+            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;English<img src="img/down-arrow.png" style="height: 30px;"></button>            
             <ul class="dropdwn1-content">
               <li><a class="dropdwn1-item" href="#">Historical</a></li>
               <li><a class="dropdwn1-item" href="#">Scientific</a></li>
@@ -200,7 +200,7 @@
    
      
            <div class="dropdwn1">
-            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Kannad</button>            
+            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Kannad<img src="img/down-arrow.png" style="height: 30px;"></button>            
             <ul class="dropdwn1-content">
               <li><a class="dropdwn1-item" href="#">Historical</a></li>
               <li><a class="dropdwn1-item" href="#">Scientific</a></li>
@@ -210,8 +210,8 @@
 
 
            <div class="dropdwn1">
-            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Malyalam</button>            
-            <ul class="dropdwn-content">
+            <button type="button" class="btn btn dropbtn" style="color: black; font-size: large; font-weight: bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-stretch: extra-expanded;">&nbsp;&nbsp;Malyalam<img src="img/down-arrow.png" style="height: 30px;"></button>            
+            <ul class="dropdwn1-content">
               <li><a class="dropdwn1-item" href="#">Historical</a></li>
               <li><a class="dropdwn1-item" href="#">Scientific</a></li>
               <li><a class="dropdwn1-item" href="#">Comics</a></li>
@@ -225,15 +225,15 @@
 
    <!--  Carousel Sart -->
 
-   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselExampleInterval" class="carousel slide shadow" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
+      <div class="carousel-item active" data-bs-interval="4000">
         <img src="img/1.webp" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="3000">
+      <div class="carousel-item" data-bs-interval="3500">
         <img src="img/4.webp" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item"  data-bs-interval="3000">
+      <div class="carousel-item"  data-bs-interval="3500">
         <img src="img/2.webp" class="d-block w-100" alt="...">
       </div>
     </div>
@@ -249,20 +249,90 @@
        <!--  Carousel Sart -->
 
        <!-- images --><!-- images --><!-- images -->
-       <div class="container">
-        <div class="d-flex img-thumbnail" style="display: inline-block; width: 100%; height: 30vh;" >
-          <img class="pe-2" src="img/8.webp" style="flex: content;"  alt="">
-          <img src="img/7.webp" style="flex: content;" alt="">
+       
+    
+        <div  class="container-fluid"  style=" display: inline-flex; height: auto;  ">
+         
+        <img  style="width: 100%;" src="img/img2.png" alt="">
+        <img  style="width: 100%;" src="img/img3.png" alt="">
+        <img  style="width: 100%;" src="img/img4.png" alt="">
+      </div>
+
+     
+
+       <!-- card start -->  <!-- card start -->  <!-- card start -->  <!-- card start -->
+      <div class="container-fluid">
+        <div class="border border-1  p-1">
+          <button class="border border-1 border-subtle  text-center ps-2 pe-2 m-2 " style="float: right; color: white; background-color: navy; border-radius: 5px;min-height: 25px;">View All</button>
+        <div style="padding: 5px 5px;"><h4>New Releases</h4><hr></div>
+      <div style="display:flex; margin-bottom: 15px;">
+        <div class="col-sm-3 p-1">
+          <div class="card border border-1 card-color">
+            <div class="card-body">
+              <h3 class="card-title">Shyam ki Maa </h3>
+              <img src="img/book.png" class="img-thumbnail" alt="">
+            <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+              Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+              ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+              Carry Pouch(Gunmetal Grey)
+            </div>
+            <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+            </div>
+          </div>
         </div>
-       </div>
+      
+        <div class="col-sm-3 p-1">
+          <div class="card border border-1 card-color">
+            <div class="card-body">
+              <h3 class="card-title">Shyam ki Maa </h3>
+              <img src="img/book.png" class="img-thumbnail" alt="">
+            <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+              Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+              ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+              Carry Pouch(Gunmetal Grey)
+            </div>
+            <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 p-1">
+          <div class="card border border-1 card-color">
+            <div class="card-body">
+              <h3 class="card-title">Shyam ki Maa </h3>
+              <img src="img/book.png" class="img-thumbnail" alt="">
+            <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+              Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+              ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+              Carry Pouch(Gunmetal Grey)
+            </div>
+            <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+            </div>
+          </div>
+        </div>
 
-       <!-- card start -->
+        <div class="col-sm-3 p-1">
+          <div class="card border border-1 card-color">
+            <div class="card-body">
+              <h3 class="card-title">Shyam ki Maa </h3>
+              <img src="img/book.png" class="img-thumbnail" alt="">
+            <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+              Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+              ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+              Carry Pouch(Gunmetal Grey)
+            </div>
+            <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
        
 
-        <!-- card start -->
+        <!-- card End --> <!-- card End --> <!-- card End --> <!-- card End -->
 
-
+       
 
 </body>
 </html>

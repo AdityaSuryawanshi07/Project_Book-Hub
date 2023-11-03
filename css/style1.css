@@ -10,7 +10,7 @@
     max-width:525px;
     min-height:670px;
     position:relative;
-    
+   
     box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
   }
   .login-html{
@@ -18,7 +18,7 @@
     height:100%;
     position:absolute;
     padding:90px 70px 50px 70px;
-   background: gray ;           /*   rgba(40,57,101,.9)   pre color */
+          /*   rgba(40,57,101,.9)   pre color */
   }
   .login-html .sign-in-htm,
   .login-html .sign-up-htm{
@@ -192,6 +192,16 @@
   .dropdwn1:hover .dropdwn1-content {display: block;}
   
   .dropdwn1:hover .dropbtn {background-color: rosybrown;}
-  .dropdwn1:hover .dropbtn {background-color: paleturquoise;}
+  .dropdwn1:hover .dropbtn {background-color: powderblue;}
 
   /* Dropdown End */
+
+
+  .hub{
+    text-decoration: dotted;
+    padding-left: 20px;
+    font-size:35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .hub:hover, .hub:active {text-shadow: 2px 3px steelblue;  font-weight: 900;}
