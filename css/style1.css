@@ -205,3 +205,26 @@
   }
 
   .hub:hover, .hub:active {text-shadow: 2px 3px steelblue;  font-weight: 900;}
+
+  .footer{
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    
+  } 
+
+
+  footer a{
+    color: #1161ee;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  footer li{
+    color: gray;
+  }
+  
+  footer ul{
+    list-style-type: none;
+  }
