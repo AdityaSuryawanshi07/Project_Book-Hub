@@ -204,27 +204,64 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .hub:hover, .hub:active {text-shadow: 2px 3px steelblue;  font-weight: 900;}
+  .hub:hover, .hub:active {
+    text-shadow: 2px 3px steelblue; 
+     font-weight: 900;
+    transition: .1s;
+    }
 
-  .footer{
+  .footerstart{
     border: 1px solid white;
     background-color: #fff;
-    padding: 10px;
+    padding: 30px;
     margin-top: 10px;
-    
+    display: flex;
   } 
 
 
-  footer a{
+  .footerstart h3{
     color: #1161ee;
     font-size: larger;
     font-weight: bold;
+    font-family: sans-serif;
   }
 
-  footer li{
+  .footerstart a{
     color: gray;
+    font-size: medium;
+    font-weight: normal;
+  }
+
+  .footerstart a:hover{
+    color: navy;
+  }
+
+  .footerstart li{
+  padding: 1px;
   }
   
-  footer ul{
+  .footerstart ul{
     list-style-type: none;
+    }
+
+  .footermiddle{
+    position: static;
+    padding-left: 20px;
+  }
+
+  .footerright {
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;  
+    padding: 10px;
+  }
+
+  .footerstart img{
+    height: 50px;
+    }
+
+  .footerstart img:hover{
+    width: 55px;
+    height: 55px;
+    transition: .1s;
   }
