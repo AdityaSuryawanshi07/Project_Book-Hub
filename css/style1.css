@@ -220,7 +220,7 @@
     background-color: #fff;
     padding: 30px;
     margin-top: 10px;
-    display: flex;
+    display: inline-flex;
   } 
 
 
@@ -267,8 +267,8 @@
 
   .footermiddle img:hover{
     width: 65px;
-    height: 65px;
-   transition: 0.175s;
+    height: 60px;
+   transition: 0.275s;
   }
 
   .footercenter{
