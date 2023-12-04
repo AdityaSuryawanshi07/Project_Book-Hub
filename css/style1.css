@@ -210,6 +210,11 @@
     transition: .1s;
     }
 
+    footer img{
+      padding-right: 10px;
+      height: 20px;
+    }
+
   .footerstart{
     border: 1px solid white;
     background-color: #fff;
@@ -253,15 +258,27 @@
     position: absolute;
     right: 0px;
     margin-right: 50px;  
-    padding: 10px;
+   
   }
 
-  .footerstart img{
+  .footermiddle img{
     height: 50px;
     }
 
-  .footerstart img:hover{
-    width: 55px;
-    height: 55px;
-    transition: .1s;
+  .footermiddle img:hover{
+    width: 65px;
+    height: 65px;
+   transition: 0.175s;
   }
+
+  .footercenter{
+    color: #aaa;
+  }
+
+  .footercenter h2{
+    font-weight: 500;
+    font-size: medium;
+  }
+
+
+
