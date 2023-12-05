@@ -57,7 +57,7 @@
 </style>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid shadow">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <div class="navbar">
@@ -169,7 +169,7 @@
   <!-- Navbar Ends -->
 
   <!-- Category Dropdown Start -->
-  <div class="container-fluid ">
+  <div class="container-fluid shadow ">
     <nav class="navbar navbar-expand-lg bg-light border border-1 border-white">
       <div class="container-fluid border border-1"
         style="background-color: snow; border-radius: 10px; padding-left: 0;">
@@ -250,14 +250,15 @@
           </ul>
         </div>
       </div>
-    </nav><br><br>
+    </nav><br>
 
     <!-- Language Dropdown Start --> <!-- Language Dropdown Start -->
 
 
-    <!--  Carousel Sart -->
+    <!--  Carousel Start -->
 
-    <div id="carouselExampleInterval" class="carousel slide shadow" data-bs-ride="carousel">
+    <div class="container-fluid shadow">
+    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="4000">
           <img src="img/1.webp" class="d-block w-100" alt="...">
@@ -279,18 +280,31 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div><br>
-    <!--  Carousel Sart -->
+    </div>
+    </div>
+    <br>
+    <!--  Carousel End -->
 
     <!-- images --><!-- images --><!-- images -->
 
-
-    <div class="container-fluid" style=" display: inline-flex; height: auto;  ">
-
-      <img style="width: 100%;" src="img/img2.png" alt="">
-      <img style="width: 100%;" src="img/img3.png" alt="">
-      <img style="width: 100%;" src="img/img4.png" alt="">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="column">
+        <img src="img/img2.png" alt="" style="width:100%;">
+      </div>
+      <div class="column">
+        <img src="img/img3.png" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img/img4.png" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img/img1.png" alt="" style="width:100%">
+      </div>
     </div>
+  </div>
+
+   
 
 
 
@@ -458,7 +472,8 @@
 
 <!--Footer Start -->
     <footer>
-<div class="container-fluid footerstart shadow">
+<div class="footer1 shadow">
+<div>
 <ul>
   <li><h3>&nbsp;Support</h3></li>
   <li><a href=""><img src="img/icons/books.png" alt="">Book-Hub Private Limited</a></li>
@@ -466,9 +481,10 @@
   <li><a href=""><img src="img/icons/email.png" alt="">suryawanshiadi07@gmail.com</a></li>
   <li><a href=""><img src="img/icons/clock.png" alt="">9.00 Am to 8.00 PM (Mon to Sat)</a></li>
 </ul>
+</div>
 
 
-<div class="footermiddle center">
+<div class="footermiddle">
   <ul>
     <li><h3>&nbsp;Payments</h3></li>
     <tr><a href=""><img src="img/paypal/pay1.png" alt=""></a></tr> 
@@ -487,10 +503,10 @@
 
 <div ><img src="img/followers - Copy.jpg" alt="" style="height: 150px;"></div>
 
-<div class="footercenter">
+<div>
   <ul>
     <li><h3>&nbsp;About Book-Hub</h3></li>
-    At SapnaOnline.com we are working towards <br>
+    At Book-Hub.com we are working towards <br>
    bringing our retail experience to the web and <br>
    we strive to uphold this prestige by serving our <br>
    customers better.
@@ -498,7 +514,7 @@
 </div>
 
 
-<div class="footerright">
+<div>
   <ul>
     <li><h3>&nbsp;Social</h3></li>
     <li><a href=""><img src="img/icons/facebook.png" alt="">Facebook</a></li>
@@ -507,6 +523,8 @@
     <li><a href=""><img src="img/icons/linkedin.png" alt="">LinkdIn</a></li>
   </ul>
 </div>
+
+
 </div>
     </footer>
 <!--Footer End-->

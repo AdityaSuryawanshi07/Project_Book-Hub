@@ -61,7 +61,7 @@ h2 {
 }
 
 .card .card-content {
-    margin: 20px 0;
+    margin: 10px 0;
     max-width: 85%;
 }
 
@@ -81,6 +81,10 @@ h2 {
 
 .card:hover .card-link {
     background: var(--darkred);
+}
+
+.card img{
+    height: 250px;
 }
 
 .cards::-webkit-scrollbar {
