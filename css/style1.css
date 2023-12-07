@@ -236,9 +236,9 @@
     padding: 5px;
     margin-top: 20px;
     background: white;
-    font-size: large;
+    font-size: large; 
   }
-
+  
   .footer1 h3{
     color: #1161ee;
     font-size: larger;
@@ -266,7 +266,7 @@
   .footermiddle img{
     height: 50px;
     }
-
+    
   .footermiddle img:hover{
     width: 65px;
     height: 60px;
@@ -274,6 +274,14 @@
   }
 
 
+  .log{
+    margin: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+    box-shadow: 1px 1px gray;
+    border-radius: 10px;
+  }
 
 
 
