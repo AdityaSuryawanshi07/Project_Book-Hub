@@ -356,3 +356,45 @@ h2 {
   .dropdwn:hover .dropbtn {
     background-color: rosybrown;
   }
+
+
+
+  /* Profuct page CSS start */
+
+  .refine {
+   
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    max-width: 250px;
+  }
+
+  .refine h3{
+    font-family: 'Niconne';
+    font-size: 22px;
+    font-style: obli;
+  }
+
+  .acc-button{
+    color: #c00424;
+    max-width: 250px;
+    padding: 10px;
+    background-color: white;
+    border: 0px solid var(--white);
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .accordion-button:hover{
+    background-color: #ddd;
+    direction: unset;
+    border: 1px white;
+  }
+
+  .accordion-body{
+    max-width: 250px;
+    padding-left: 0%;
+  }
+
+ 
