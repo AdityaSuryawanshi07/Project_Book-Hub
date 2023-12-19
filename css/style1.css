@@ -233,6 +233,7 @@
 
 
   .footer1{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -370,8 +371,7 @@ h2 {
     float: left;
     padding: 20px;
     margin: 10px;
-    display: block;
-   
+    display: block; 
   }
 
   .refine h3{
@@ -383,12 +383,13 @@ h2 {
   .cardbox{
     float: right;
     width: 77%;
+    padding-bottom: 20px;
   }
 
   .acc-button{
     color: #c00424;
     max-width: 250px;
-    padding: 10px;
+    padding: 30px;
     background-color: white;
     border: 0px solid var(--white);
     font-size: 20px;
